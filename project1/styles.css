@@ -1,0 +1,20 @@
+header h1 {
+  background-color: #940085;
+  color: white;
+  text-align: center;
+}
+
+article div {
+  color: grey;
+  font-style: italic;
+}
+
+article h2 {
+  font-family: Arial;
+}
+
+footer {
+  background-color: #940085;
+  color: white;
+  text-align: center;
+}
