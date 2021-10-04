@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  background-color: #ccc;
+  border: 1px solid black;
+  height: 500px;
+}
+
+.item {
+  background-color: gray;
+  width: 75px;
+  margin: 10px;
+  color: yellow;
+  border: 1px solid black;
+}
+
+.item1 {
+  min-height: 50px;
+  flex-grow: 1;
+  align-self: flex-start;
+}
+
+.item2 {
+  min-height: 100px;
+  flex: 1;
+}
+
+.item3 {
+  min-height: 150px;
+}
