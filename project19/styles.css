@@ -1,0 +1,22 @@
+div {
+  background-color: green;
+}
+
+.div {
+  /* background-color: revert; not available in some browsers, therefore can use @supports and then adding a fallback */
+}
+
+/* feature queries */
+@supports (background-color: revert) and (background-color: red) {
+  /*meaning: if the browser supports, do this*/
+  .div {
+    background-color: revert;
+  }
+}
+
+/* fallback */
+@supports not (background-color: revert) {
+  .div {
+    background-color: transparent;
+  }
+}
